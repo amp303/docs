@@ -1,12 +1,17 @@
 export default defineAppConfig({
   ui: {
-    primary: 'green',
-    gray: 'slate',
+    primary: 'emerald',
+    gray: 'stone',
+
     footer: {
       bottom: {
         left: 'text-sm text-gray-500 dark:text-gray-400',
         wrapper: 'border-t border-gray-200 dark:border-gray-800'
       }
+    },
+
+    icons: {
+      search: 'i-heroicons-academic-cap-20-solid'
     }
   },
   seo: {
@@ -18,7 +23,7 @@ export default defineAppConfig({
       light: '',
       dark: ''
     },
-    search: true,
+    search: false,
     colorMode: true,
     links: [{
       icon: 'i-simple-icons-github',
